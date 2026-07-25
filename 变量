@@ -1,0 +1,137 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 48,
+   "id": "4cd0a9bb-b705-4869-8226-8b29e4e71202",
+   "metadata": {
+    "scrolled": true
+   },
+   "outputs": [],
+   "source": [
+    "city=\"福州\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 49,
+   "id": "8ab2ada6-7ed5-45da-9171-04483f96f42b",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "aqi=120"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 50,
+   "id": "a18b11d3-953b-4a76-828b-3cf171b7713d",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "pm25=42.5"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 51,
+   "id": "f6c917a1-ab43-4dc1-9354-f1a8cdd68d05",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "福州\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(city)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 52,
+   "id": "4b8cb1db-3eb8-4bb6-b367-8020dd9131c1",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "120\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(aqi)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 53,
+   "id": "bcfc8b36-d014-4419-ac4f-e0a2fa53d29c",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "42.5\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(pm25)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 54,
+   "id": "12c26d42-e20b-40ac-b179-a51c3427132d",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "福州今日AQI为120，PM2.5浓度42.5微克/立方米\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(f\"{city}今日AQI为{aqi}，PM2.5浓度{pm25}微克/立方米\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "3e4d3671-af7f-4953-8045-a356e7c704ed",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.13.5"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}

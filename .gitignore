@@ -1,0 +1,15 @@
+# Jupyter 自动生成的检查点
+.ipynb_checkpoints/
+
+# Windows 快捷方式 / 系统文件
+*.lnk
+Thumbs.db
+desktop.ini
+
+# 本地备份和临时文件
+*.bak
+*.tmp
+
+# Python
+__pycache__/
+*.pyc
