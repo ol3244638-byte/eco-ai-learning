@@ -13,3 +13,5 @@ desktop.ini
 # Python
 __pycache__/
 *.pyc
+.ipynb_checkpoints/
+Untitled*.ipynb
